@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+/venv/
+env/
+ENV/
+.venv
+
+# Базы данных
+*.sqlite3
+*.db
+*.sqlite
+test_db.sqlite3
+
+# Логи
+*.log
+logs/
+*.log.*
+
+# Alembic (версии миграций НЕ игнорируй, только .pyc)
+alembic/versions/__pycache__/
+*.pyc
+
+# Poetry
+poetry.lock  # ⚠️ опционально: если хочешь фиксировать версии
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Тесты
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Docker
+.dockerignore
+
+# Прочее
+*.pid
+*.log
+*.tmp
